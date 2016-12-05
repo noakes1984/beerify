@@ -1,0 +1,2 @@
+# beerify
+BreweryDB searchable database
