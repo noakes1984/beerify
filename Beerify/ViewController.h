@@ -17,6 +17,7 @@
     
     NSMutableArray *contentList;
     NSMutableArray *filteredContentList;
+    NSMutableArray *brewerys;
     NSMutableArray *list;
     NSMutableString *location;
     NSArray *filteredDetailLine;
