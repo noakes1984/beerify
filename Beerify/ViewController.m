@@ -170,18 +170,10 @@
                     UIImage *image = [UIImage imageWithData:imageData];
                     [imageView setImage:image];
                     [successAlert addSubview:imageView];
-              
-                    
-                    
-                    
-                    
-                    
-                    
+ 
                     
                     CustomIOSAlertView *alertView = [[CustomIOSAlertView alloc] init];
-                    
-                    
-                    
+                     
                     // Add some custom content to the alert view
                     [alertView setContainerView:[self createDemoView]];
                     
