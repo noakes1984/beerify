@@ -22,8 +22,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [Parse initializeWithConfiguration:[ParseClientConfiguration configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
-        configuration.applicationId = @"lM31jYxWEXFitIRbyHwPT2F0gwlIKHH1Yqn3UUDI";
-        configuration.clientKey = @"02qaDaHOXWfYm1EAN7gBOotjwxNsfA02Qxo5HFxU";
+        configuration.applicationId = @"";
+        configuration.clientKey = @"";
 
     }]];
     
