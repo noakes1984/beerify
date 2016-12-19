@@ -130,10 +130,10 @@
     //NSString *cellText = cell.textLabel.text;
     
     //NSLog(@"%@", _beerID[indexPath.row]);
-    NSString *urlOne = [NSString stringWithFormat:@"http://api.brewerydb.com/v2/beer/%@?withBreweries=Y&key=142f4ee97b2b084721cf79e028699ae0", _beerID[indexPath.row]];//, _beerID[indexPath.row]];
+    NSString *urlOne = [NSString stringWithFormat:@"http://api.brewerydb.com/v2/beer/%@?withBreweries=Y&key=", _beerID[indexPath.row]];//, _beerID[indexPath.row]];
     
     
-       NSURL *URL = [NSURL URLWithString:urlOne];//"http://api.brewerydb.com/v2/search?q=Goosinator&type=beer&withBreweries=Y&key=710a74cd5bd2b6a837128341d5bf892f"];
+       NSURL *URL = [NSURL URLWithString:urlOne];//"http://api.brewerydb.com/v2/search?q=Goosinator&type=beer&withBreweries=Y&key="];
     NSURLRequest *request = [NSURLRequest requestWithURL:URL];
     
     //NSLog(@"%@", finalString);
